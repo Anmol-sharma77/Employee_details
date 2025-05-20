@@ -1,0 +1,60 @@
+/* EmployeeList.css */
+.list-container {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .employee-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-name {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .employee-email,
+  .employee-position {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .edit-button,
+  .delete-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
